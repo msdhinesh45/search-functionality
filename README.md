@@ -6,9 +6,7 @@ This is a simple real-time search filter created using HTML, CSS, and JavaScript
 
 ## 🔗 Live Demo
 
-👉 [Click here to view the live project](https://your-live-link-here)
-
-> Replace this link with your GitHub Pages URL (e.g., `https://msdhinesh45.github.io/search-filter/`)
+👉 [Click here to view the live project](https://msdhinesh45.github.io/search-functionality/)
 
 ---
 
@@ -24,17 +22,10 @@ This is a simple real-time search filter created using HTML, CSS, and JavaScript
 ## 🖼️ Output Screenshots
 
 ### 🖼️ Initial Page (Before Typing)
-![Output 1](output-1.png)
+![Output 1](ouput-1.png)
 
 ### 🖼️ After Typing in Search Box
 ![Output 2](output-2.png)
-
-> Make sure you upload your `output-1.png` and `output-2.png` inside your project folder.
-
----
-
-## 📂 Folder Structure
-
 
 ---
 
