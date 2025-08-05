@@ -5,7 +5,7 @@ for (let i = 0; i < itemList.length; i++) {
     itemList[i].style.display = "none";
 }
 
-searchInput.addEventListener("input", function() {
+searchInput.addEventListener("input", function () {
     const searchText = searchInput.value.toLowerCase();
 
     for (let i = 0; i < itemList.length; i++) {
