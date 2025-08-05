@@ -1,38 +1,44 @@
-
-
-body{
-    display: flex;
-    flex-direction: column;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    align-items: center;
-    background: #bfbff1;
-    height: 100vh;
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-#search{
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    background: #bfbff1;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+#search {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 40px;
+    width: 100%;
     max-width: 400px;
-
 }
 
-#search-input{
-    padding: 10px;
+#search-input {
+    padding: 12px;
     font-size: 18px;
-    width: 302px;
+    width: 100%;
     border-radius: 6px;
+    border: 1px solid #ccc;
 }
 
-#item-list{
+#item-list {
     width: 100%;
     padding: 0;
     max-width: 400px;
     list-style: none;
+    margin-top: 20px;
 }
 
-.item{
+.item {
     margin: 10px 0;
     padding: 20px;
     background-color: whitesmoke;
@@ -41,14 +47,25 @@ body{
     transition: transform 0.4s ease-in-out;
 }
 
-.item:hover{
-    transform: scale(1.2);
+.item:hover {
+    transform: scale(1.05);
 }
 
-.item:nth-child(even){
+.item:nth-child(even) {
     background-color: #23d17a;
 }
 
-.item.item:nth-child(odd){
+.item:nth-child(odd) {
     background-color: #74eff8;
+}
+
+@media screen and (max-width: 500px) {
+    #search, #item-list {
+        max-width: 90%;
+    }
+
+    .item {
+        font-size: 16px;
+        padding: 15px;
+    }
 }
